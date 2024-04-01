@@ -12,9 +12,7 @@ $\theta _0 = \theta^{rms}_{space} = \frac{1}{\sqrt{2}}\theta^{rms}_{space}$
 
 The scattering angle distribution can be described by a Gaussian function with zero mean and standard deviation determined by the magnitude of the scattering angle:
 
-$
-P(\theta) = \frac{1}{\sqrt{2\pi} \theta_{rms}} e^{-\frac{\theta^2}{2\theta_{rms}^2}}
-$
+$P(\theta) = \frac{1}{\sqrt{2\pi} \theta_{rms}} e^{-\frac{\theta^2}{2\theta_{rms}^2}}$
 
 Here, $\theta$ is the scattering angle, and $\theta_{rms}$ is the root mean square scattering angle according to the Molière model.
 
