@@ -45,6 +45,6 @@ Where:
 
 ## Figure
 
-![Coulomb Multiple Scattering](Figures/Coulomb Multiple Scattering-GSF.pdf)
+![Coulomb Multiple Scattering](Figures/Coulomb Multiple Scattering-GSF.png)
 
 However, in reality, for small scattering angles, the angular distribution can approximate a Gaussian distribution, but for larger scattering angles, it will have a longer tail compared to a Gaussian distribution.
