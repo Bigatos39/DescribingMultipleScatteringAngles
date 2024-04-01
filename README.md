@@ -43,6 +43,4 @@ Where:
 - $\theta_{space}^2 \approx (\theta_{plane, x}^2 + \theta_{plane, y}^2)$ with $x$ and $y$ being orthogonal to the motion.
 - $d\Omega \approx d\theta_{plane, x}~d\theta_{plane, y}$
 
-## Figure
-
 However, in reality, for small scattering angles, the angular distribution can approximate a Gaussian distribution, but for larger scattering angles, it will have a longer tail compared to a Gaussian distribution.
