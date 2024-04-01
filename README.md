@@ -38,8 +38,8 @@ This $\theta_0$ value suits the Molière distribution for charged particles with
 
 The angular distribution in space and the plane is approximated as:
 
-\[\frac{1}{2\pi \theta_0^2} e^{-\frac{\theta_{space}^2}{2\theta_0^2}}d\Omega\]
-\[\frac{1}{\sqrt{2\pi} \theta_0} e^{-\frac{\theta^2_{plane}}{2\theta_0^2}} d\theta_{plane}\]
+$\frac{1}{2\pi \theta_0^2} e^{-\frac{\theta_{space}^2}{2\theta_0^2}}d\Omega$
+$\frac{1}{\sqrt{2\pi} \theta_0} e^{-\frac{\theta^2_{plane}}{2\theta_0^2}} d\theta_{plane}$
 
 Where:
 - $\theta_{space}^2 \approx (\theta_{plane, x}^2 + \theta_{plane, y}^2)$ with $x$ and $y$ being orthogonal to the motion.
