@@ -100,6 +100,7 @@ int main()
 //	fitFunc6 -> SetLineColor(kYellow);
 
 	gPad -> SetLogy();
+	c -> SaveAs("Figures/Coulomb Multiple Scattering-GSF.pdf");
 
 	c -> Modified();
 	c -> Update();
