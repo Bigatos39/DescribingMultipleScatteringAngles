@@ -8,7 +8,7 @@ Commonly used models to describe multiple scattering include the Molière model,
 
 One of the most widely used models is the Molière model. Molière assumes that after each interaction, the new direction of the particle is randomly chosen according to a Gaussian distribution:
 
-$\theta _0 = \theta^{rms}_{space} = \frac{1}{\sqrt{2}}\theta^{rms}_{space}$
+$\theta _0 = \theta^{rms} _{space} = \frac{1}{\sqrt{2}}\theta^{rms}_{space}$
 
 The scattering angle distribution can be described by a Gaussian function with zero mean and standard deviation determined by the magnitude of the scattering angle:
 
