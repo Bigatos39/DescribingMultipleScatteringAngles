@@ -8,13 +8,13 @@ Commonly used models to describe multiple scattering include the Molière model,
 
 One of the most widely used models is the Molière model. Molière assumes that after each interaction, the new direction of the particle is randomly chosen according to a Gaussian distribution:
 
-\[\theta _0 = \theta^{rms}_{space} = \frac{1}{\sqrt{2}}\theta^{rms}_{space}\]
+$\theta _0 = \theta^{rms}_{space} = \frac{1}{\sqrt{2}}\theta^{rms}_{space}$
 
 The scattering angle distribution can be described by a Gaussian function with zero mean and standard deviation determined by the magnitude of the scattering angle:
 
-\[
+$
 P(\theta) = \frac{1}{\sqrt{2\pi} \theta_{rms}} e^{-\frac{\theta^2}{2\theta_{rms}^2}}
-\]
+$
 
 Here, $\theta$ is the scattering angle, and $\theta_{rms}$ is the root mean square scattering angle according to the Molière model.
 
@@ -22,7 +22,7 @@ Here, $\theta$ is the scattering angle, and $\theta_{rms}$ is the root mean squa
 
 The scattering angle is calculated using a Gaussian from the Molière model:
 
-\[\theta _0 = \frac{13.6 \text{ MeV}}{\beta c p} z \sqrt{\frac{x}{X_0}} \left[1 + 0.0038 \ln\left(\frac{x}{X_0}\right)\right]\]
+$\theta _0 = \frac{13.6 \text{ MeV}}{\beta c p} z \sqrt{\frac{x}{X_0}} \left[1 + 0.0038 \ln\left(\frac{x}{X_0}\right)\right]$
 
 Where:
 - $\beta c$ is the velocity of the incoming particle.
