@@ -1,0 +1,14 @@
+1. Check Frame Work Root in ROOT.cern (C++)
+	$ root --version
+	If you don't have this FramwWork you can download this from https://root.cern.ch
+
+2. DownLoad G4beamline Tool from https://www.muonsinc.com/Website1/G4beamline
+
+3. Set Up Command "g4bl" for terminal
+	$ cd ~/G4beamline.app/Content/bin/
+	$ source g4bl-setup.sh
+
+3. Run Code
+	$ cd GaussianSum
+	$ g4bl task2.g4bl
+	$ make -f MakeFile
