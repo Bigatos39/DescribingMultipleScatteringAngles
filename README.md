@@ -4,7 +4,7 @@ When charged particles move through a medium, the Coulomb interactions between t
 
 ## Common Models for Multiple Scattering
 
-Commonly used models to describe multiple scattering include the Molière model, Gaussian model, and the Landau-Pomeranchuk-Migdal model.
+Common used models described multiple scattering including the Molière model, Gaussian model, and the Landau-Pomeranchuk-Migdal model.
 
 One of the most widely used models is the Molière model. Molière assumes that after each interaction, the new direction of the particle is randomly chosen according to a Gaussian distribution:
 
