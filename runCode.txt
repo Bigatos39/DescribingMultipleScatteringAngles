@@ -9,6 +9,5 @@
 	$ source g4bl-setup.sh
 
 3. Run Code
-	$ cd GaussianSum
 	$ g4bl task2.g4bl
 	$ make -f MakeFile
