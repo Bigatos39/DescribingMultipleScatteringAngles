@@ -61,6 +61,9 @@ int main()
 
 			h1 -> Fill(atan(measTrack.Track[i].tx[j]));
 		}
+
+		if (i < Det - 1)
+			gd.CaculateVariance(measTrack);
 	}
 	float sigmaScatter = h1 -> GetStdDev();
 	TF1 *fitFunc3 = new TF1("fitFunc3", GaussianSumFilterW3, -1.5, 1.5, 9);
@@ -94,12 +97,15 @@ int main()
 	fitFunc5 -> Draw("same");
 	fitFunc5 -> SetLineColor(kRed);
 	fitFunc5 -> SetLineWidth(4);
+	h1 -> GetXaxis() -> SetTitle("Rad");
+	h1 -> GetYaxis() -> SetTitle("Entries");
 
 //	h1 -> Fit(fitFunc6);
 //	fitFunc6 -> Draw("same");
 //	fitFunc6 -> SetLineColor(kYellow);
 
 	gPad -> SetLogy();
+	c -> SetTitle("Multiple scattering angular distribution");
 	c -> SaveAs("Figures/Coulomb Multiple Scattering-GSF.png");
 
 	c -> Modified();

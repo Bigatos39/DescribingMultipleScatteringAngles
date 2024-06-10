@@ -1,5 +1,6 @@
 #include "./HeaderFile/MeasTrack.h"
 #include "./HeaderFile/MeasData.h"
+#include <iostream>
 
 #include "TFile.h"
 #include "TString.h"
@@ -46,4 +47,34 @@ void GetData::CaculateAndSaveScatter(MeasTrack &measTrack) const // tx = deltaX 
 	txMeas = (x2 - x1) / dz;
 
 	measTrack.Track[iDet].tx.push_back(txMeas);
+}
+
+void GetData::CaculateVariance(MeasTrack &measTrack) const
+{
+	float Variance = 0;
+	float StdDevTx = 0;
+	float xMean = 0;
+	float txMean = 0;
+
+	for (int i = 0; i < measTrack.Track[iDet].tx.size(); i++)
+	{
+		xMean += measTrack.Track[iDet].tx[i];
+		txMean += atan(measTrack.Track[iDet].tx[i]);
+	}
+	xMean = xMean / measTrack.Track[iDet].tx.size();
+	txMean = txMean / measTrack.Track[iDet].tx.size();
+
+	for (int i = 0; i < measTrack.Track[iDet].tx.size(); i++)
+	{
+		Variance += pow(measTrack.Track[iDet].tx[i] - xMean, 2);
+		StdDevTx += pow(txMean - atan(measTrack.Track[iDet].tx[i]), 2);
+	}
+	Variance = Variance / measTrack.Track[iDet].tx.size();
+	Variance = sqrt(Variance);
+
+	StdDevTx = StdDevTx / measTrack.Track[iDet].tx.size();
+	StdDevTx = sqrt(StdDevTx);
+
+//	std::cout << "Variance of Det" << iDet + 1 << ": " << Variance << "\n";
+	std::cout << "StdDev of scatter in Det " << iDet + 1 << ": " << StdDevTx << "\n";
 }
