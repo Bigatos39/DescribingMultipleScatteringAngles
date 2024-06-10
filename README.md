@@ -4,7 +4,7 @@ When charged particles move through a medium, the Coulomb interactions between t
 
 ## Common Models for Multiple Scattering
 
-Commonly used models to describe multiple scattering include the Molière model, Gaussian model, and the Landau-Pomeranchuk-Migdal model.
+Common used models described multiple scattering including the Molière model, Gaussian model, and the Landau-Pomeranchuk-Migdal model.
 
 One of the most widely used models is the Molière model. Molière assumes that after each interaction, the new direction of the particle is randomly chosen according to a Gaussian distribution:
 
@@ -42,9 +42,5 @@ $\frac{1}{\sqrt{2\pi} \theta_0} e^{-\frac{\theta^2_{plane}}{2\theta_0^2}} d\thet
 Where:
 - $\theta_{space}^2 \approx (\theta_{plane, x}^2 + \theta_{plane, y}^2)$ with $x$ and $y$ being orthogonal to the motion.
 - $d\Omega \approx d\theta_{plane, x}~d\theta_{plane, y}$
-
-## Figure
-
-![Coulomb Multiple Scattering](Figures/Coulomb Multiple Scattering-GSF.pdf)
 
 However, in reality, for small scattering angles, the angular distribution can approximate a Gaussian distribution, but for larger scattering angles, it will have a longer tail compared to a Gaussian distribution.
