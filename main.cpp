@@ -105,11 +105,8 @@ int main()
 //	fitFunc6 -> SetLineColor(kYellow);
 
 	gPad -> SetLogy();
-<<<<<<< HEAD
+
 	c -> SetTitle("Multiple scattering angular distribution");
-=======
-	
->>>>>>> origin/main
 	c -> SaveAs("Figures/Coulomb Multiple Scattering-GSF.png");
 	c -> Modified();
 	c -> Update();
