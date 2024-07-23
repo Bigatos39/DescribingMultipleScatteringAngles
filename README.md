@@ -20,12 +20,12 @@ Here, $\theta$ is the scattering angle, and $\theta_{rms}$ is the root mean squa
 
 The scattering angle is calculated using a Gaussian from the Molière model:
 
-$\theta _0 = \frac{13.6 \text{ MeV}}{\beta c p} z \sqrt{\frac{x}{X_0}} \left[1 + 0.0038 \ln\left(\frac{x}{X_0}\right)\right]$
+$\theta _0 = \frac{13.6 \text{ MeV}}{\beta c p} Z \sqrt{\frac{x}{X_0}} \left[1 + 0.0038 \ln\left(\frac{x}{X_0}\right)\right]$
 
 Where:
 - $\beta c$ is the velocity of the incoming particle.
 - $p$ is the momentum of the incoming particle.
-- $z$ is the charge of the incoming particle.
+- $Z$ is the charge of the incoming particle.
 - $\frac{x}{X_0}$ is the ratio of the radiation length of the scattering medium over the length of radiation.
 
 The radiation length $X_0$ can be approximated as: $X_0 \approx \frac{716.4 A}{Z(Z+1) \ln\left(\frac{287}{\sqrt{Z}}\right)}$
